@@ -1,21 +1,31 @@
 
 # print the sum of the values from 1 to 5 as follows. there are more but gib sol to these for now
-
+Q. 01-01
 print(1+2+3+4+5)
 
+# Q. 02-02
 n = int(input("Enter an integer: "))
 if n % 2 == 0:
     print("n is even")
 else:
     print("n is odd")
 
+# Q. 03-01
 print('*' * 22)
 print('# ' * 11)
 
+# Q. 04-01
 name = "David Doe"
 address = "1600 Wilshire Blvd #205, Los Angeles CA 90017"
 print(name, address)
 
+# Q. 05-01
+print(5 > 3)     # True
+print(5 < 3)     # False
+print(5 == 5)    # True
+print(5 != 5)    # False
+
+# Q. 06-01
 a = int(input())
 b = int(input())
 if a < b:
